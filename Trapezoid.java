@@ -28,7 +28,7 @@ public class Trapezoid {
         height = Math.abs(y1 - y2);
 
         //Calculates the area of the trapezoid
-        area = ((length1 + length2) * height) / 2; 
+        area = ((length1 + length2) * height) / 2.0; 
 
         //Calculates the cordinates of the first right point (x3,y3)
         x3 = x1 + length1;
